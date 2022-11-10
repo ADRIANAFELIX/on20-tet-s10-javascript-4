@@ -17,7 +17,7 @@ const getFilms = async () => {
   try{
     const response = await fetch('https://ghibliapi.herokuapp.com/films')
     const films = await response.json()
-    const ourFilms = films.slice(0, 5)
+    const ourFilms = films.slice(10, 5)
     return ourFilms
   }
   catch(err) {

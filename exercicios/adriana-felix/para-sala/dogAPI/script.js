@@ -15,7 +15,7 @@ async function getDoguinho(raca) {
   }
 }
 
-getDoguinho('doberman')
+getDoguinho('pinscher')
 
 // async function doguinhoAleatorio() {
 //   try {

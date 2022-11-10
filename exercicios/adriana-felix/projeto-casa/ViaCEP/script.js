@@ -20,5 +20,8 @@ async function getAddress() {
   }
   catch(err) {
     console.error("Capturei um erro: ", err)
+
+    //<fielset><legend> Cadastro de endereço</legend>
+    // 
   }
 }
